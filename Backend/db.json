@@ -1,0 +1,60 @@
+{
+  "bikes": [
+    {
+      "id": "1",
+      "name": "Honda Activa 6G",
+      "type": "Scooter",
+      "price": 78000,
+      "brand": "Honda",
+      "image": "https://example.com/activa.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Royal Enfield Classic 350",
+      "type": "Motorbike",
+      "price": 195000,
+      "brand": "Royal Enfield",
+      "image": "https://example.com/classic350.jpg"
+    },
+    {
+      "id": "3",
+      "name": "TVS iQube Electric",
+      "type": "EV Scooter",
+      "price": 125000,
+      "brand": "TVS",
+      "image": "https://example.com/iqube.jpg"
+    }
+  ],
+
+  "showrooms": [
+    {
+      "id": "1",
+      "name": "Rydio Showroom - Mumbai",
+      "location": "Mumbai, Maharashtra"
+    },
+    {
+      "id": "2",
+      "name": "Rydio Showroom - Bangalore",
+      "location": "Bangalore, Karnataka"
+    }
+  ],
+
+  "bookings": [
+    {
+      "id": "101",
+      "bikeId": "2",
+      "user": "testuser@example.com",
+      "date": "2025-09-28",
+      "status": "confirmed"
+    }
+  ],
+
+  "users": [
+    {
+      "id": "u1",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "password123"
+    }
+  ]
+}

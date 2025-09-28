@@ -1,0 +1,21 @@
+{
+  "name": "ride-wise-backend",
+  "version": "1.0.0",
+  "description": "Simple Express backend for the Ride-wise frontend (BikeHub/Rydio prototype).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lowdb": "^1.0.0",
+    "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "license": "MIT"
+}
